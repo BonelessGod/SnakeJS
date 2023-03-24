@@ -1,0 +1,68 @@
+.button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+body{
+    background: rgb(61, 48, 68);
+   /* background: linear-gradient(77deg, rgba(112,65,136,1) 0%, rgba(53,0,77,1) 48%, rgba(56,23,144,1) 100%);*/
+}
+
+.btn{
+    height: auto;
+    width: 60px;
+    padding: 10px;
+    background-image: linear-gradient(#dedee0, #aaa);
+    border-radius: 16% 16% 14% 14% / 31% 31% 54% 54%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    align-items: center;
+    flex-direction: row;
+}
+#up{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: c;
+}
+
+#right, #down, #left{
+    grid-row: 2;
+}
+
+#left{
+    grid-column: 1;
+
+}
+#right{
+    grid-column: 3;
+
+}
+#down{
+    grid-column: 2;
+}
+#restart{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
