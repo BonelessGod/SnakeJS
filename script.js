@@ -4,7 +4,7 @@ window.onload = function(){
     var canvasHeight = screen.height * (60/100);
     var blockSize = 20; 
     var ctx;
-    var delay = 75;
+    var delay = 100;
 
     var snakee;
     var applee;
